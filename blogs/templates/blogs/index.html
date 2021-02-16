@@ -1,0 +1,14 @@
+{% extends "blogs/base.html" %}
+
+{% block page_header %}
+
+<div class="jumbotron">
+<h1 class="display-3">Share your thoughts.</h1>
+<p class="lead">Make a Blog Post, share your thoughts and experiences with the world.
+    Visitied a new place, learned a new skill or made a new dish...whatever it is, share with the people around the globe.Explore what other's have experienced.
+    We all have a writer within, let it COME OUT!!
+</p>
+<a class="btn btn-lg btn-info" href="{% url 'users:register' %}"
+role="button">REGISTER &raquo;</a>
+</div>
+{% endblock page_header %}
